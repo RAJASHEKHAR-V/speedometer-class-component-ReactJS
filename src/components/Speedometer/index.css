@@ -1,0 +1,135 @@
+.bg-Container {
+  background-color: #07080c;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meterHeading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
+}
+
+.image {
+  width: 70%;
+}
+.meterDisplayBody {
+  width: 60%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.speedHeading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.instruction {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-weight: normal;
+  text-align: center;
+}
+
+.AccButton {
+  min-width: 70px;
+  min-height: 25px;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.BrkButton {
+  min-width: 80px;
+  min-height: 25px;
+  background-color: #07080c;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  border: 1px solid #94a3b8;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .meterHeading {
+    font-size: 25px;
+  }
+
+  .image {
+    max-width: 90%;
+  }
+  .meterDisplayBody {
+    max-width: 70%;
+  }
+
+  .speedHeading {
+    font-size: 18px;
+  }
+
+  .instruction {
+    font-size: 12px;
+  }
+
+  .AccButton {
+    max-width: 80px;
+    max-height: 40px;
+    font-size: 10px;
+  }
+
+  .BrkButton {
+    max-width: 110px;
+    max-height: 40px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .meterHeading {
+    font-size: 45px;
+  }
+
+  .image {
+    max-width: 50%;
+  }
+  .meterDisplayBody {
+    max-width: 80%;
+  }
+
+  .speedHeading {
+    font-size: 25px;
+  }
+
+  .instruction {
+    font-size: 18px;
+  }
+
+  .AccButton {
+    max-width: 100px;
+    max-height: 40px;
+    font-size: 12px;
+  }
+
+  .BrkButton {
+    max-width: 110px;
+    max-height: 40px;
+    font-size: 12px;
+  }
+}
